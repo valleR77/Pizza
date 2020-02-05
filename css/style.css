@@ -95,6 +95,7 @@ display: none;
 	 font-weight: 800;
 	 border: 2px solid #fff;
 	 padding: 12px 0px;
+	 transition: .5s;
 	}
 	.btn:hover{
 		color: #EE252D;
@@ -265,6 +266,10 @@ top: calc(50% - 34px);
 	background-repeat: no-repeat;
 	text-decoration: none;
 	padding: 29px 58px;
+	transition: .5s;
+}
+.btn-start:hover{
+	color: darkred;
 }
 .page{
 	padding-top: 75px;
@@ -424,9 +429,7 @@ top: calc(50% - 34px);
 	}
 }
 @media (max-width: 350px) {
-	.wrapper {
-		max-width:
-	}
+
 }
 	
 
