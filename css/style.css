@@ -53,6 +53,9 @@ display: none;
 	 text-decoration: none;
 	 color: #494949;
  }
+ .nav>li>a:hover{
+	 color: #000;
+ }
  /*banner*/
  .banner{
 	 background-image: url(../image/banner.png);
@@ -92,6 +95,10 @@ display: none;
 	 font-weight: 800;
 	 border: 2px solid #fff;
 	 padding: 12px 0px;
+	}
+	.btn:hover{
+		color: #EE252D;
+		background: #fff;
 	}
  /*2 block*/
  .h2{
@@ -159,6 +166,9 @@ display: none;
 	font-weight: 700;
 	text-transform: uppercase;
 	padding-bottom: 18px;
+}
+.menu > li > a:hover{
+	color: #000;
 }
 .menu > li > a.active {
 	border-bottom: 4px solid #ee252d;
